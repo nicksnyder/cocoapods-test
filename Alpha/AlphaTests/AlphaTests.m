@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-@import Alpha; // hmmm http://stackoverflow.com/questions/29620786/import-causes-parse-issue-could-not-build-module
+#import <Alpha/AlphaProvider.h>
 
 @interface AlphaTests : XCTestCase
 

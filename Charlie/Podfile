@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'Charlie' do
+  pod 'Alpha', :path => '../Alpha/'
+
+  target 'CharlieTests' do
+    inherit! :search_paths
+  end
+end

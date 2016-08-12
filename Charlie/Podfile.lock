@@ -1,0 +1,16 @@
+PODS:
+  - Alpha (1.0.0)
+
+DEPENDENCIES:
+  - Alpha (from `../Alpha/`)
+
+EXTERNAL SOURCES:
+  Alpha:
+    :path: ../Alpha/
+
+SPEC CHECKSUMS:
+  Alpha: d5fc638304a1f7f7a0bd984c56033400731a8235
+
+PODFILE CHECKSUM: a213ae1990889b2ec569ca9614b502d2d4e40620
+
+COCOAPODS: 1.1.0.beta.1
