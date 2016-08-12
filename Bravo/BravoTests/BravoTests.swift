@@ -11,7 +11,7 @@ import Bravo
 
 class BravoTests: XCTestCase {
 
-    func testBravo() {
+    func testBravoProvider() {
         XCTAssertEqual(BravoProvider().bravo(), "bravo")
     }
     

@@ -15,7 +15,7 @@
 
 @implementation AlphaTests
 
-- (void)testExample {
+- (void)testAlphaProvider {
     XCTAssert([[[AlphaProvider new] alpha] isEqualToString: @"alpha"]);
 }
 
