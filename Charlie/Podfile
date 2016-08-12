@@ -7,4 +7,8 @@ target 'Charlie' do
   target 'CharlieTests' do
     inherit! :search_paths
   end
+
+  target 'CharlieSampleApp' do
+    inherit! :search_paths
+  end
 end

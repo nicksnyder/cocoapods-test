@@ -8,6 +8,8 @@
 
 #import "CharlieProvider.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @implementation CharlieProvider
 
 - (NSString *)charlieWithAlphaProvider:(AlphaProvider *)alphaProvider bravoProvider:(BravoProvider *)bravoProvider {
@@ -15,3 +17,5 @@
 }
 
 @end
+
+NS_ASSUME_NONNULL_END

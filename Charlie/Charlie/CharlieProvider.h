@@ -10,8 +10,12 @@
 @import Alpha;
 @import Bravo;
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface CharlieProvider : NSObject
 
 - (NSString *)charlieWithAlphaProvider:(AlphaProvider *)alphaProvider bravoProvider:(BravoProvider *)bravoProvider;
 
 @end
+
+NS_ASSUME_NONNULL_END
