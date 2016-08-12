@@ -1,0 +1,892 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14160C3FE42720EFCD0DD1378758805E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		1A3F3A16882BAD76E65C84676BD88D4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		20E2A90A6E3BE451D3EB4ADA0CB50AB7 /* BravoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88163ED60F3F7648C102A94475216CA /* BravoProvider.swift */; };
+		3C016ABF9C3AE6F4636ABC27C8105DAE /* Pods-DeltaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CE29B5D132B88997C28D6081861B12 /* Pods-DeltaTests-dummy.m */; };
+		4E3AC41E6DDA4AD2581DC4FE885B7490 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		544C5393F5F6C5A73DBC330CE978AD03 /* Pods-DeltaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C8D2BB569B5D323B38E4BBE6BB5843 /* Pods-DeltaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BC701589B6E4C7E72B36090FEFF3422 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		619673892A2CB123084724EDE7F6AB2D /* Bravo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6C8456A816F457D7B4C07FBF217B3C /* Bravo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62C6582C23862129F4F1AC307EDED500 /* AlphaProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 241C1102307F9A77EE4A3BB7D0E3A3A7 /* AlphaProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		694560467BD0E720FCF33B752DD5D083 /* Alpha-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C43BE39CC8822D5C87344F3291F632E /* Alpha-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		728893F9E1B4394D7C5E24862A3B9AF3 /* Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = 0162B0889C38115451049E141DE922BE /* Alpha.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B8C746949F90D994731B9E46297EF2E /* Bravo.h in Headers */ = {isa = PBXBuildFile; fileRef = 535F3CC71A4B5E94B3AAB9EA3B491C3F /* Bravo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FF8D6B9443AE85B88AE2066885CDA45 /* Alpha-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14263822D05E0FE0402CB5FBE9B24DAE /* Alpha-dummy.m */; };
+		824724E3D1A4329B7965430AD9356654 /* Pods-Delta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A3DD7440B61CF4B26CE0E06538D1CE /* Pods-Delta-dummy.m */; };
+		83C74B0E1C15690CF0EF76584C7C1A69 /* AlphaProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CCCC65B1F503DAA311158231194E63 /* AlphaProvider.m */; };
+		9693935A729CC75E3AB633FD111F1EA2 /* Bravo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA78FD1608B03AB1D91B1954F7E799C /* Bravo-dummy.m */; };
+		D683DF13D47235B10E86BF6007A229AB /* Pods-Delta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62160D5D2F99A9B25FC9E0493DC20216 /* Pods-Delta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		092DB09488F8A8B06411397F60257523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9CE8EF3FDC0AC342F0BA2B7900B478C;
+			remoteInfo = Alpha;
+		};
+		0DB9168E29AB9C14E84B03992E358672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEAADF8E8C21A9A5683C81874A5BFCCF;
+			remoteInfo = Bravo;
+		};
+		8CB831490720F06CA02EFD99D24689BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEAADF8E8C21A9A5683C81874A5BFCCF;
+			remoteInfo = Bravo;
+		};
+		F6CAEDF57741F4D72C21A2BA9F060840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9CE8EF3FDC0AC342F0BA2B7900B478C;
+			remoteInfo = Alpha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0162B0889C38115451049E141DE922BE /* Alpha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Alpha.h; sourceTree = "<group>"; };
+		07BBDE048A02C6CA6FC60B09E02B1F00 /* Pods-DeltaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DeltaTests.modulemap"; sourceTree = "<group>"; };
+		0FFD3FCD504D0B0D1F0D960C8A96BF2C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		133B08D1CEE0F555E7E937AC8989E686 /* Pods-DeltaTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeltaTests-resources.sh"; sourceTree = "<group>"; };
+		14263822D05E0FE0402CB5FBE9B24DAE /* Alpha-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alpha-dummy.m"; sourceTree = "<group>"; };
+		1442A35E45CEF12772D6053198410CC1 /* Pods-DeltaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeltaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		241C1102307F9A77EE4A3BB7D0E3A3A7 /* AlphaProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlphaProvider.h; sourceTree = "<group>"; };
+		26598AAECADA43E186CCEEB2511B55A3 /* Pods-DeltaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeltaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		43980CA8324C7373EF7FD892C40D67A8 /* Pods_DeltaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeltaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C43BE39CC8822D5C87344F3291F632E /* Alpha-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alpha-umbrella.h"; sourceTree = "<group>"; };
+		51CE29B5D132B88997C28D6081861B12 /* Pods-DeltaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeltaTests-dummy.m"; sourceTree = "<group>"; };
+		535F3CC71A4B5E94B3AAB9EA3B491C3F /* Bravo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Bravo.h; sourceTree = "<group>"; };
+		57B13D1C590E7D5117DF24920C31FCBA /* Pods-Delta-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Delta-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5E9C432F60833425D4CBC77992258AE2 /* Alpha.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alpha.xcconfig; sourceTree = "<group>"; };
+		60037F8DF99B65BF44F050DBB7F8B524 /* Alpha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alpha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62160D5D2F99A9B25FC9E0493DC20216 /* Pods-Delta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Delta-umbrella.h"; sourceTree = "<group>"; };
+		6BB00D3BB99E215614B7C9683D9EF28F /* Pods-DeltaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeltaTests.release.xcconfig"; sourceTree = "<group>"; };
+		73A03FEF2A677D449C67C848AC880A82 /* Pods-Delta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Delta.debug.xcconfig"; sourceTree = "<group>"; };
+		74C8D2BB569B5D323B38E4BBE6BB5843 /* Pods-DeltaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeltaTests-umbrella.h"; sourceTree = "<group>"; };
+		76CCCC65B1F503DAA311158231194E63 /* AlphaProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlphaProvider.m; sourceTree = "<group>"; };
+		85A97659DB4E81986DCAC9021E6C0BC5 /* Pods-DeltaTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeltaTests-frameworks.sh"; sourceTree = "<group>"; };
+		8CC669875159D44D2AE5D4C0F3BD2D0E /* Bravo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Bravo.modulemap; sourceTree = "<group>"; };
+		903ECD5CA27323D85BCAB9E1869D11A6 /* Bravo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bravo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		962F9874483D32F62C7A895961E0874B /* Bravo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bravo.xcconfig; sourceTree = "<group>"; };
+		9743E922B206137BE086ECA6DD960A6E /* Pods_Delta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0F083C6A69120F0FF712F3E3973B06 /* Pods-Delta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Delta.release.xcconfig"; sourceTree = "<group>"; };
+		9E6AFEF80EC954EF7E3D82628D9AE227 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F2D3467287F3CCEA8ADED54A105A551 /* Alpha-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alpha-prefix.pch"; sourceTree = "<group>"; };
+		AAE15CA1DD595BC42B8F69394CA6AAE4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB2D5AE018377694539F6CD8AD169F29 /* Pods-Delta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Delta.modulemap"; sourceTree = "<group>"; };
+		AB95E31E504948D72B33249C9A68CCFD /* Pods-Delta-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Delta-acknowledgements.plist"; sourceTree = "<group>"; };
+		BBA78FD1608B03AB1D91B1954F7E799C /* Bravo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bravo-dummy.m"; sourceTree = "<group>"; };
+		C7B393130678489C47AD6F1FD085BD5A /* Alpha.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alpha.modulemap; sourceTree = "<group>"; };
+		C88163ED60F3F7648C102A94475216CA /* BravoProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BravoProvider.swift; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D17AC10CF07689141DB57950C89364CC /* Pods-Delta-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Delta-resources.sh"; sourceTree = "<group>"; };
+		D9B63CFB9604EC2891CBBB3347E41C87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC81C1E9696F32209D98A5F5B9F9730B /* Bravo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bravo-prefix.pch"; sourceTree = "<group>"; };
+		E5A3DD7440B61CF4B26CE0E06538D1CE /* Pods-Delta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Delta-dummy.m"; sourceTree = "<group>"; };
+		EF6C8456A816F457D7B4C07FBF217B3C /* Bravo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bravo-umbrella.h"; sourceTree = "<group>"; };
+		F7F41BD97F042138945F6B4646668722 /* Pods-DeltaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeltaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22624D60D51E517CB9F0BAE186312467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3F3A16882BAD76E65C84676BD88D4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471A2EAFB37E11A156EAE93226BF350C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC701589B6E4C7E72B36090FEFF3422 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C80B3EAEDBB019C6CED4E1CE817252F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3AC41E6DDA4AD2581DC4FE885B7490 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6E5CE9C193BF7211774965DCBF74BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14160C3FE42720EFCD0DD1378758805E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23EB807D517C525D1B512412DF9BB396 /* Pods-Delta */ = {
+			isa = PBXGroup;
+			children = (
+				9E6AFEF80EC954EF7E3D82628D9AE227 /* Info.plist */,
+				AB2D5AE018377694539F6CD8AD169F29 /* Pods-Delta.modulemap */,
+				57B13D1C590E7D5117DF24920C31FCBA /* Pods-Delta-acknowledgements.markdown */,
+				AB95E31E504948D72B33249C9A68CCFD /* Pods-Delta-acknowledgements.plist */,
+				E5A3DD7440B61CF4B26CE0E06538D1CE /* Pods-Delta-dummy.m */,
+				D17AC10CF07689141DB57950C89364CC /* Pods-Delta-resources.sh */,
+				62160D5D2F99A9B25FC9E0493DC20216 /* Pods-Delta-umbrella.h */,
+				73A03FEF2A677D449C67C848AC880A82 /* Pods-Delta.debug.xcconfig */,
+				9B0F083C6A69120F0FF712F3E3973B06 /* Pods-Delta.release.xcconfig */,
+			);
+			name = "Pods-Delta";
+			path = "Target Support Files/Pods-Delta";
+			sourceTree = "<group>";
+		};
+		30D6DAB757FDB5BE6D2366020595FFC5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23EB807D517C525D1B512412DF9BB396 /* Pods-Delta */,
+				C5755BDE265F2E6EE3C4A68D0EB26B13 /* Pods-DeltaTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3A080037975A451C2D322D430884DAB3 /* Bravo */ = {
+			isa = PBXGroup;
+			children = (
+				BB33C1A1C30441161C8424A234C6898C /* Bravo */,
+				A427502B49521FADA11E959979F23611 /* Support Files */,
+			);
+			name = Bravo;
+			path = ../../Bravo;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4832795E7B012A08ABECB14EE95F399F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EF44C3AFFDFB1CE3BCA2F47C85F489A /* Alpha */,
+				3A080037975A451C2D322D430884DAB3 /* Bravo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4EF44C3AFFDFB1CE3BCA2F47C85F489A /* Alpha */ = {
+			isa = PBXGroup;
+			children = (
+				F195CDDF0A2A0FA0A2E5CEC9A870592A /* Alpha */,
+				C8C85714C04429D7AC2660E7F5955E82 /* Support Files */,
+			);
+			name = Alpha;
+			path = ../../Alpha;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4832795E7B012A08ABECB14EE95F399F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E28B99DD01E96B16998D63F7991A71CF /* Products */,
+				30D6DAB757FDB5BE6D2366020595FFC5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A427502B49521FADA11E959979F23611 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CC669875159D44D2AE5D4C0F3BD2D0E /* Bravo.modulemap */,
+				962F9874483D32F62C7A895961E0874B /* Bravo.xcconfig */,
+				BBA78FD1608B03AB1D91B1954F7E799C /* Bravo-dummy.m */,
+				DC81C1E9696F32209D98A5F5B9F9730B /* Bravo-prefix.pch */,
+				EF6C8456A816F457D7B4C07FBF217B3C /* Bravo-umbrella.h */,
+				0FFD3FCD504D0B0D1F0D960C8A96BF2C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Delta/Pods/Target Support Files/Bravo";
+			sourceTree = "<group>";
+		};
+		BB33C1A1C30441161C8424A234C6898C /* Bravo */ = {
+			isa = PBXGroup;
+			children = (
+				535F3CC71A4B5E94B3AAB9EA3B491C3F /* Bravo.h */,
+				C88163ED60F3F7648C102A94475216CA /* BravoProvider.swift */,
+			);
+			path = Bravo;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5755BDE265F2E6EE3C4A68D0EB26B13 /* Pods-DeltaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAE15CA1DD595BC42B8F69394CA6AAE4 /* Info.plist */,
+				07BBDE048A02C6CA6FC60B09E02B1F00 /* Pods-DeltaTests.modulemap */,
+				26598AAECADA43E186CCEEB2511B55A3 /* Pods-DeltaTests-acknowledgements.markdown */,
+				F7F41BD97F042138945F6B4646668722 /* Pods-DeltaTests-acknowledgements.plist */,
+				51CE29B5D132B88997C28D6081861B12 /* Pods-DeltaTests-dummy.m */,
+				85A97659DB4E81986DCAC9021E6C0BC5 /* Pods-DeltaTests-frameworks.sh */,
+				133B08D1CEE0F555E7E937AC8989E686 /* Pods-DeltaTests-resources.sh */,
+				74C8D2BB569B5D323B38E4BBE6BB5843 /* Pods-DeltaTests-umbrella.h */,
+				1442A35E45CEF12772D6053198410CC1 /* Pods-DeltaTests.debug.xcconfig */,
+				6BB00D3BB99E215614B7C9683D9EF28F /* Pods-DeltaTests.release.xcconfig */,
+			);
+			name = "Pods-DeltaTests";
+			path = "Target Support Files/Pods-DeltaTests";
+			sourceTree = "<group>";
+		};
+		C8C85714C04429D7AC2660E7F5955E82 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7B393130678489C47AD6F1FD085BD5A /* Alpha.modulemap */,
+				5E9C432F60833425D4CBC77992258AE2 /* Alpha.xcconfig */,
+				14263822D05E0FE0402CB5FBE9B24DAE /* Alpha-dummy.m */,
+				9F2D3467287F3CCEA8ADED54A105A551 /* Alpha-prefix.pch */,
+				4C43BE39CC8822D5C87344F3291F632E /* Alpha-umbrella.h */,
+				D9B63CFB9604EC2891CBBB3347E41C87 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Delta/Pods/Target Support Files/Alpha";
+			sourceTree = "<group>";
+		};
+		E28B99DD01E96B16998D63F7991A71CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60037F8DF99B65BF44F050DBB7F8B524 /* Alpha.framework */,
+				903ECD5CA27323D85BCAB9E1869D11A6 /* Bravo.framework */,
+				9743E922B206137BE086ECA6DD960A6E /* Pods_Delta.framework */,
+				43980CA8324C7373EF7FD892C40D67A8 /* Pods_DeltaTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F195CDDF0A2A0FA0A2E5CEC9A870592A /* Alpha */ = {
+			isa = PBXGroup;
+			children = (
+				0162B0889C38115451049E141DE922BE /* Alpha.h */,
+				241C1102307F9A77EE4A3BB7D0E3A3A7 /* AlphaProvider.h */,
+				76CCCC65B1F503DAA311158231194E63 /* AlphaProvider.m */,
+			);
+			path = Alpha;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DB2B8E76AEDD0DEDD3680FA459A6624 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				694560467BD0E720FCF33B752DD5D083 /* Alpha-umbrella.h in Headers */,
+				728893F9E1B4394D7C5E24862A3B9AF3 /* Alpha.h in Headers */,
+				62C6582C23862129F4F1AC307EDED500 /* AlphaProvider.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592BB65D6C85E9D79EE7E165BB8F1B8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619673892A2CB123084724EDE7F6AB2D /* Bravo-umbrella.h in Headers */,
+				7B8C746949F90D994731B9E46297EF2E /* Bravo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5837B8DDEC3D642C5B8D707BAF8180E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544C5393F5F6C5A73DBC330CE978AD03 /* Pods-DeltaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF64ECAE7D0A580B3A09D002125B968 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D683DF13D47235B10E86BF6007A229AB /* Pods-Delta-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		733F24DDEA3FE38EBD8EC257DABDFC57 /* Pods-DeltaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4A3ED8FAA892CFDD1B296DFDF9CA276 /* Build configuration list for PBXNativeTarget "Pods-DeltaTests" */;
+			buildPhases = (
+				E9F0D173A8C4C59DA7D5C6D43C565482 /* Sources */,
+				22624D60D51E517CB9F0BAE186312467 /* Frameworks */,
+				B5837B8DDEC3D642C5B8D707BAF8180E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F96F82B0FEFD90CDBAA76B0A2E7EFA26 /* PBXTargetDependency */,
+				4E3CB1A66CA1FE5C0008C1C83083F4A6 /* PBXTargetDependency */,
+			);
+			name = "Pods-DeltaTests";
+			productName = "Pods-DeltaTests";
+			productReference = 43980CA8324C7373EF7FD892C40D67A8 /* Pods_DeltaTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EEAADF8E8C21A9A5683C81874A5BFCCF /* Bravo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D3BB2E32E3BF8B0AE61C413129C1D8C /* Build configuration list for PBXNativeTarget "Bravo" */;
+			buildPhases = (
+				EC63286204FEFD32A2A788831E6B8C0A /* Sources */,
+				AB6E5CE9C193BF7211774965DCBF74BF /* Frameworks */,
+				592BB65D6C85E9D79EE7E165BB8F1B8B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bravo;
+			productName = Bravo;
+			productReference = 903ECD5CA27323D85BCAB9E1869D11A6 /* Bravo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F28479995094C5B499ECE0102B2733D5 /* Pods-Delta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8A4CFCEEF1C2E19DF87965D515838A /* Build configuration list for PBXNativeTarget "Pods-Delta" */;
+			buildPhases = (
+				2C6BBE5A77485826190F7A2A770939AA /* Sources */,
+				6C80B3EAEDBB019C6CED4E1CE817252F /* Frameworks */,
+				CBF64ECAE7D0A580B3A09D002125B968 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				448171E3A40721BED58B3EC9F807C32C /* PBXTargetDependency */,
+				3C69698B50F9315D9FF0E80C3FB2C384 /* PBXTargetDependency */,
+			);
+			name = "Pods-Delta";
+			productName = "Pods-Delta";
+			productReference = 9743E922B206137BE086ECA6DD960A6E /* Pods_Delta.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9CE8EF3FDC0AC342F0BA2B7900B478C /* Alpha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD59A66944A0255AA81B2F75E6F79949 /* Build configuration list for PBXNativeTarget "Alpha" */;
+			buildPhases = (
+				90441DC72099FEA0FBED3231DEE68E44 /* Sources */,
+				471A2EAFB37E11A156EAE93226BF350C /* Frameworks */,
+				1DB2B8E76AEDD0DEDD3680FA459A6624 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alpha;
+			productName = Alpha;
+			productReference = 60037F8DF99B65BF44F050DBB7F8B524 /* Alpha.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E28B99DD01E96B16998D63F7991A71CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9CE8EF3FDC0AC342F0BA2B7900B478C /* Alpha */,
+				EEAADF8E8C21A9A5683C81874A5BFCCF /* Bravo */,
+				F28479995094C5B499ECE0102B2733D5 /* Pods-Delta */,
+				733F24DDEA3FE38EBD8EC257DABDFC57 /* Pods-DeltaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C6BBE5A77485826190F7A2A770939AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824724E3D1A4329B7965430AD9356654 /* Pods-Delta-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90441DC72099FEA0FBED3231DEE68E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF8D6B9443AE85B88AE2066885CDA45 /* Alpha-dummy.m in Sources */,
+				83C74B0E1C15690CF0EF76584C7C1A69 /* AlphaProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F0D173A8C4C59DA7D5C6D43C565482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C016ABF9C3AE6F4636ABC27C8105DAE /* Pods-DeltaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC63286204FEFD32A2A788831E6B8C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9693935A729CC75E3AB633FD111F1EA2 /* Bravo-dummy.m in Sources */,
+				20E2A90A6E3BE451D3EB4ADA0CB50AB7 /* BravoProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C69698B50F9315D9FF0E80C3FB2C384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bravo;
+			target = EEAADF8E8C21A9A5683C81874A5BFCCF /* Bravo */;
+			targetProxy = 8CB831490720F06CA02EFD99D24689BA /* PBXContainerItemProxy */;
+		};
+		448171E3A40721BED58B3EC9F807C32C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alpha;
+			target = F9CE8EF3FDC0AC342F0BA2B7900B478C /* Alpha */;
+			targetProxy = F6CAEDF57741F4D72C21A2BA9F060840 /* PBXContainerItemProxy */;
+		};
+		4E3CB1A66CA1FE5C0008C1C83083F4A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bravo;
+			target = EEAADF8E8C21A9A5683C81874A5BFCCF /* Bravo */;
+			targetProxy = 0DB9168E29AB9C14E84B03992E358672 /* PBXContainerItemProxy */;
+		};
+		F96F82B0FEFD90CDBAA76B0A2E7EFA26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alpha;
+			target = F9CE8EF3FDC0AC342F0BA2B7900B478C /* Alpha */;
+			targetProxy = 092DB09488F8A8B06411397F60257523 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		216FEC97425900F1984B4D8CA8306437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E9C432F60833425D4CBC77992258AE2 /* Alpha.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alpha/Alpha-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alpha/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alpha/Alpha.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alpha;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		268731D3F5D9A0588296493407702609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1442A35E45CEF12772D6053198410CC1 /* Pods-DeltaTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DeltaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeltaTests/Pods-DeltaTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DeltaTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		547D12E91F0F5C2CABFEBA92BD3C9356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E9C432F60833425D4CBC77992258AE2 /* Alpha.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alpha/Alpha-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alpha/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alpha/Alpha.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alpha;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5AF6AD77CAAFBA3F1C95BBD23AA91678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962F9874483D32F62C7A895961E0874B /* Bravo.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Bravo/Bravo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Bravo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Bravo/Bravo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Bravo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D788EE3C4ADC8BF140765DD039962F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B0F083C6A69120F0FF712F3E3973B06 /* Pods-Delta.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Delta/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Delta/Pods-Delta.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Delta;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABF5DD761802D9AB3447FC7C6125830F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BB00D3BB99E215614B7C9683D9EF28F /* Pods-DeltaTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DeltaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeltaTests/Pods-DeltaTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DeltaTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3B2E75204E5CF50231320C1CCAD31B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73A03FEF2A677D449C67C848AC880A82 /* Pods-Delta.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Delta/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Delta/Pods-Delta.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Delta;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF18B850E20E6118A5E7FF53B8F989B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962F9874483D32F62C7A895961E0874B /* Bravo.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Bravo/Bravo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Bravo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Bravo/Bravo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Bravo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */,
+				862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D3BB2E32E3BF8B0AE61C413129C1D8C /* Build configuration list for PBXNativeTarget "Bravo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF6AD77CAAFBA3F1C95BBD23AA91678 /* Debug */,
+				FF18B850E20E6118A5E7FF53B8F989B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD59A66944A0255AA81B2F75E6F79949 /* Build configuration list for PBXNativeTarget "Alpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216FEC97425900F1984B4D8CA8306437 /* Debug */,
+				547D12E91F0F5C2CABFEBA92BD3C9356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4A3ED8FAA892CFDD1B296DFDF9CA276 /* Build configuration list for PBXNativeTarget "Pods-DeltaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268731D3F5D9A0588296493407702609 /* Debug */,
+				ABF5DD761802D9AB3447FC7C6125830F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8A4CFCEEF1C2E19DF87965D515838A /* Build configuration list for PBXNativeTarget "Pods-Delta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B2E75204E5CF50231320C1CCAD31B8 /* Debug */,
+				5D788EE3C4ADC8BF140765DD039962F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

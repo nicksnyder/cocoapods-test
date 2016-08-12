@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import Bravo
+import Bravo
 
 class BravoTests: XCTestCase {
 

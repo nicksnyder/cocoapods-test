@@ -8,8 +8,13 @@
 
 import Foundation
 
-class BravoProvider {
-    func bravo() -> String {
+public class BravoProvider {
+
+    public init() {
+
+    }
+
+    public func bravo() -> String {
         return "bravo"
     }
 }
