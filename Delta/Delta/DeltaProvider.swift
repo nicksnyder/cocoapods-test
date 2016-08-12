@@ -10,11 +10,8 @@ import Foundation
 import Alpha
 import Bravo
 
-public class DeltaProvider {
-    public init() {
-
-    }
-    
+@objc
+public class DeltaProvider: NSObject {
     public func delta(alphaProvider alphaProvider: AlphaProvider, bravoProvider: BravoProvider) -> String {
         return alphaProvider.alpha() + bravoProvider.bravo() + "delta"
     }

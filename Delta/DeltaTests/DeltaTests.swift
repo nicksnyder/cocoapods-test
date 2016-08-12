@@ -17,7 +17,7 @@ class DeltaTests: XCTestCase {
         let alphaProvider = AlphaProvider()
         let bravoProvider = BravoProvider()
         let actual = DeltaProvider().delta(alphaProvider: alphaProvider, bravoProvider: bravoProvider)
-        let expected = alphaProvider.alpha() + bravoProvider.bravo() + "delta"
+        let expected = "alphabravodelta"
         XCTAssertEqual(actual, expected)
     }
 }
