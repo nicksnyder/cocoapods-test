@@ -8,11 +8,8 @@
 
 import Foundation
 
-public class BravoProvider {
-
-    public init() {
-
-    }
+@objc
+public class BravoProvider: NSObject {
 
     public func bravo() -> String {
         return "bravo"

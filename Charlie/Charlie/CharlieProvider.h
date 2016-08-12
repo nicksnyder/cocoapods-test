@@ -8,9 +8,10 @@
 
 #import <Foundation/Foundation.h>
 @import Alpha;
+@import Bravo;
 
 @interface CharlieProvider : NSObject
 
-- (NSString *)charlieWithAlphaProvider:(AlphaProvider *)alphaProvider;
+- (NSString *)charlieWithAlphaProvider:(AlphaProvider *)alphaProvider bravoProvider:(BravoProvider *)bravoProvider;
 
 @end

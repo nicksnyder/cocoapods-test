@@ -85,7 +85,9 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alpha/Alpha.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Bravo/Bravo.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alpha/Alpha.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Bravo/Bravo.framework"
 fi

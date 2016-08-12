@@ -8,7 +8,8 @@
 
 #import <XCTest/XCTest.h>
 #import <Charlie/CharlieProvider.h>
-#import <Alpha/AlphaProvider.h>
+@import Alpha;
+@import Bravo;
 
 @interface CharlieTests : XCTestCase
 
@@ -16,9 +17,12 @@
 
 @implementation CharlieTests
 
-- (void)testCharlie {
-    NSString *alphaCharlie = [[[AlphaProvider new] alpha] stringByAppendingString:@"charlie"];
-    XCTAssert([[[CharlieProvider new] charlieWithAlphaProvider:[AlphaProvider new]] isEqualToString:alphaCharlie]);
+- (void)testCharlieProvider {
+    AlphaProvider *alphaProvider = [AlphaProvider new];
+    BravoProvider *bravoProvider = [BravoProvider new];
+    NSString *actual = [[CharlieProvider new] charlieWithAlphaProvider:alphaProvider bravoProvider:bravoProvider];
+    NSString *expected = @"alphabravocharlie";
+    XCTAssert([actual isEqualToString:expected]);
 }
 
 @end

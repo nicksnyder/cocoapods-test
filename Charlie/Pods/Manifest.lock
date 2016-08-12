@@ -1,16 +1,21 @@
 PODS:
   - Alpha (1.0.0)
+  - Bravo (1.0.0)
 
 DEPENDENCIES:
   - Alpha (from `../Alpha/`)
+  - Bravo (from `../Bravo/`)
 
 EXTERNAL SOURCES:
   Alpha:
     :path: ../Alpha/
+  Bravo:
+    :path: ../Bravo/
 
 SPEC CHECKSUMS:
   Alpha: d5fc638304a1f7f7a0bd984c56033400731a8235
+  Bravo: fa39415d2dcccc17b3c8b214c87e67e36e906508
 
-PODFILE CHECKSUM: a213ae1990889b2ec569ca9614b502d2d4e40620
+PODFILE CHECKSUM: 006719de5570da2a55acfb6a93ed1b20929c3582
 
 COCOAPODS: 1.1.0.beta.1

@@ -10,8 +10,8 @@
 
 @implementation CharlieProvider
 
-- (NSString *)charlieWithAlphaProvider:(AlphaProvider *)alphaProvider {
-    return [alphaProvider.alpha stringByAppendingString:@"charlie"];
+- (NSString *)charlieWithAlphaProvider:(AlphaProvider *)alphaProvider bravoProvider:(BravoProvider *)bravoProvider {
+    return [NSString stringWithFormat:@"%@%@%@", alphaProvider.alpha, bravoProvider.bravo, @"charlie"];
 }
 
 @end
