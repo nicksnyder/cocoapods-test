@@ -1,0 +1,21 @@
+PODS:
+  - Charlie (1.0.0)
+  - Delta (1.0.0)
+
+DEPENDENCIES:
+  - Charlie (from `../Charlie/`)
+  - Delta (from `../Delta/`)
+
+EXTERNAL SOURCES:
+  Charlie:
+    :path: ../Charlie/
+  Delta:
+    :path: ../Delta/
+
+SPEC CHECKSUMS:
+  Charlie: 86140d8d0726d257f65c345c85159afeb50be51c
+  Delta: 43028bca3e77f876071691d5aa30e76e2dc0ae66
+
+PODFILE CHECKSUM: 556b646a8b1c6967ca44cb56a3b77699e678d5be
+
+COCOAPODS: 1.1.0.beta.1

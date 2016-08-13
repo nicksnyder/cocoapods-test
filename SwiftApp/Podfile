@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'SwiftApp' do
+  pod 'Charlie', :path => '../Charlie/'
+  pod 'Delta', :path => '../Delta/'
+
+  target 'SwiftAppTests' do
+    inherit! :search_paths
+  end
+
+  target 'SwiftAppUITests' do
+    inherit! :search_paths
+  end
+end
