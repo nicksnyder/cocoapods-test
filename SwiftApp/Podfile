@@ -1,9 +1,9 @@
-source 'https://github.com/nicksnyder/Specs.git'
+source 'git@github.com:nicksnyder/Specs.git'
 use_frameworks!
 
 target 'SwiftApp' do
-  pod 'Charlie', :path => '../Charlie/'
-  pod 'Delta', :path => '../Delta/'
+  pod 'Charlie', '~> 2.0'
+  pod 'Delta', '~> 2.0'
 
   target 'SwiftAppTests' do
     inherit! :search_paths

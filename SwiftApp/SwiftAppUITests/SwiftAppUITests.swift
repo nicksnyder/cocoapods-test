@@ -2,7 +2,7 @@
 //  SwiftAppUITests.swift
 //  SwiftAppUITests
 //
-//  Created by Nick Snyder on 8/12/16.
+//  Created by Nick Snyder on 8/15/16.
 //  Copyright © 2016 Nick Snyder. All rights reserved.
 //
 

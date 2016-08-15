@@ -1,0 +1,6 @@
+framework module Charlie {
+  umbrella header "Charlie-umbrella.h"
+
+  export *
+  module * { export * }
+}
