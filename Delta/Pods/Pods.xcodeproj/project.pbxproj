@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		14160C3FE42720EFCD0DD1378758805E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		1A3F3A16882BAD76E65C84676BD88D4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		20E2A90A6E3BE451D3EB4ADA0CB50AB7 /* BravoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88163ED60F3F7648C102A94475216CA /* BravoProvider.swift */; };
+		20A8033B236A7258D0CDD766FB39DCA6 /* Alpha-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE7948A0BA6FEAA0A468DACF7CE0F02 /* Alpha-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E09AEB369E2D174E1187182519A9E90 /* Alpha-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D28B063C3D57A18156F67BD6E07A79E0 /* Alpha-dummy.m */; };
 		3C016ABF9C3AE6F4636ABC27C8105DAE /* Pods-DeltaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CE29B5D132B88997C28D6081861B12 /* Pods-DeltaTests-dummy.m */; };
+		47ECCC6767918AF805DB359CD96D439F /* AlphaProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = D709790360CD7A23B5F49A828AD21C45 /* AlphaProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E3AC41E6DDA4AD2581DC4FE885B7490 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		544C5393F5F6C5A73DBC330CE978AD03 /* Pods-DeltaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C8D2BB569B5D323B38E4BBE6BB5843 /* Pods-DeltaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BC701589B6E4C7E72B36090FEFF3422 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		619673892A2CB123084724EDE7F6AB2D /* Bravo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6C8456A816F457D7B4C07FBF217B3C /* Bravo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62C6582C23862129F4F1AC307EDED500 /* AlphaProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 241C1102307F9A77EE4A3BB7D0E3A3A7 /* AlphaProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		694560467BD0E720FCF33B752DD5D083 /* Alpha-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C43BE39CC8822D5C87344F3291F632E /* Alpha-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		728893F9E1B4394D7C5E24862A3B9AF3 /* Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = 0162B0889C38115451049E141DE922BE /* Alpha.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B8C746949F90D994731B9E46297EF2E /* Bravo.h in Headers */ = {isa = PBXBuildFile; fileRef = 535F3CC71A4B5E94B3AAB9EA3B491C3F /* Bravo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FF8D6B9443AE85B88AE2066885CDA45 /* Alpha-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14263822D05E0FE0402CB5FBE9B24DAE /* Alpha-dummy.m */; };
 		824724E3D1A4329B7965430AD9356654 /* Pods-Delta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A3DD7440B61CF4B26CE0E06538D1CE /* Pods-Delta-dummy.m */; };
-		83C74B0E1C15690CF0EF76584C7C1A69 /* AlphaProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CCCC65B1F503DAA311158231194E63 /* AlphaProvider.m */; };
-		9693935A729CC75E3AB633FD111F1EA2 /* Bravo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA78FD1608B03AB1D91B1954F7E799C /* Bravo-dummy.m */; };
+		907CDD636F845711F837B8E80CA33CE7 /* Bravo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 425C8CE3CF482ECE813B7A6AE8957D2C /* Bravo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		908B099CE1065EFC80DFEC903C36F236 /* AlphaProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 88401A20F0462A6DBC77F9C57B313018 /* AlphaProvider.m */; };
+		A9F29400E9D5D482BCEC1FC4193DD274 /* BravoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A96B1BF16CBCB595D77F2B2053BE16 /* BravoProvider.swift */; };
+		B16E368151D7D9615F7F8DA627E1BE98 /* Bravo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834329CD39B41187F0DE4E01AACDCAA /* Bravo-dummy.m */; };
+		CDBA38EFC2735CB988F8AD539A382614 /* Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C9F0FE3FB0847422AFD0F406DCC0D06 /* Alpha.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D683DF13D47235B10E86BF6007A229AB /* Pods-Delta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62160D5D2F99A9B25FC9E0493DC20216 /* Pods-Delta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D91B688A83CF8B6BBCB290B516858AC2 /* Bravo.h in Headers */ = {isa = PBXBuildFile; fileRef = A7543FB8CD3C795095B0E58B30493032 /* Bravo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,48 +58,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0162B0889C38115451049E141DE922BE /* Alpha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Alpha.h; sourceTree = "<group>"; };
 		07BBDE048A02C6CA6FC60B09E02B1F00 /* Pods-DeltaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DeltaTests.modulemap"; sourceTree = "<group>"; };
-		0FFD3FCD504D0B0D1F0D960C8A96BF2C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C3BFF5878E442298DCB2E7244B9BD45 /* Bravo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bravo-prefix.pch"; sourceTree = "<group>"; };
 		133B08D1CEE0F555E7E937AC8989E686 /* Pods-DeltaTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeltaTests-resources.sh"; sourceTree = "<group>"; };
-		14263822D05E0FE0402CB5FBE9B24DAE /* Alpha-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alpha-dummy.m"; sourceTree = "<group>"; };
 		1442A35E45CEF12772D6053198410CC1 /* Pods-DeltaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeltaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		241C1102307F9A77EE4A3BB7D0E3A3A7 /* AlphaProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlphaProvider.h; sourceTree = "<group>"; };
+		1AB4E8C260F85E1893E9642B66864037 /* Bravo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bravo.xcconfig; sourceTree = "<group>"; };
 		26598AAECADA43E186CCEEB2511B55A3 /* Pods-DeltaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeltaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2ABD621FEBC7833EB18CFD4C777D5776 /* Alpha.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alpha.xcconfig; sourceTree = "<group>"; };
+		3834329CD39B41187F0DE4E01AACDCAA /* Bravo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bravo-dummy.m"; sourceTree = "<group>"; };
+		4112CD54237FE0BEAA826C40B4ED6A64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425C8CE3CF482ECE813B7A6AE8957D2C /* Bravo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bravo-umbrella.h"; sourceTree = "<group>"; };
 		43980CA8324C7373EF7FD892C40D67A8 /* Pods_DeltaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeltaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C43BE39CC8822D5C87344F3291F632E /* Alpha-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alpha-umbrella.h"; sourceTree = "<group>"; };
 		51CE29B5D132B88997C28D6081861B12 /* Pods-DeltaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeltaTests-dummy.m"; sourceTree = "<group>"; };
-		535F3CC71A4B5E94B3AAB9EA3B491C3F /* Bravo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Bravo.h; sourceTree = "<group>"; };
 		57B13D1C590E7D5117DF24920C31FCBA /* Pods-Delta-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Delta-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5E9C432F60833425D4CBC77992258AE2 /* Alpha.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alpha.xcconfig; sourceTree = "<group>"; };
 		60037F8DF99B65BF44F050DBB7F8B524 /* Alpha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alpha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62160D5D2F99A9B25FC9E0493DC20216 /* Pods-Delta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Delta-umbrella.h"; sourceTree = "<group>"; };
 		6BB00D3BB99E215614B7C9683D9EF28F /* Pods-DeltaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeltaTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C9F0FE3FB0847422AFD0F406DCC0D06 /* Alpha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Alpha.h; path = Alpha/Alpha/Alpha.h; sourceTree = "<group>"; };
 		73A03FEF2A677D449C67C848AC880A82 /* Pods-Delta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Delta.debug.xcconfig"; sourceTree = "<group>"; };
 		74C8D2BB569B5D323B38E4BBE6BB5843 /* Pods-DeltaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeltaTests-umbrella.h"; sourceTree = "<group>"; };
-		76CCCC65B1F503DAA311158231194E63 /* AlphaProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlphaProvider.m; sourceTree = "<group>"; };
+		775B07F86CF3DF2C1104627E753B25F5 /* Alpha.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alpha.modulemap; sourceTree = "<group>"; };
+		84E986716CC641C3984E737D95A25F8E /* Bravo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Bravo.modulemap; sourceTree = "<group>"; };
 		85A97659DB4E81986DCAC9021E6C0BC5 /* Pods-DeltaTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeltaTests-frameworks.sh"; sourceTree = "<group>"; };
-		8CC669875159D44D2AE5D4C0F3BD2D0E /* Bravo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Bravo.modulemap; sourceTree = "<group>"; };
+		88401A20F0462A6DBC77F9C57B313018 /* AlphaProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AlphaProvider.m; path = Alpha/Alpha/AlphaProvider.m; sourceTree = "<group>"; };
 		903ECD5CA27323D85BCAB9E1869D11A6 /* Bravo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bravo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		962F9874483D32F62C7A895961E0874B /* Bravo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bravo.xcconfig; sourceTree = "<group>"; };
 		9743E922B206137BE086ECA6DD960A6E /* Pods_Delta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0F083C6A69120F0FF712F3E3973B06 /* Pods-Delta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Delta.release.xcconfig"; sourceTree = "<group>"; };
+		9CE7948A0BA6FEAA0A468DACF7CE0F02 /* Alpha-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alpha-umbrella.h"; sourceTree = "<group>"; };
 		9E6AFEF80EC954EF7E3D82628D9AE227 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F2D3467287F3CCEA8ADED54A105A551 /* Alpha-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alpha-prefix.pch"; sourceTree = "<group>"; };
+		A7543FB8CD3C795095B0E58B30493032 /* Bravo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bravo.h; path = Bravo/Bravo/Bravo.h; sourceTree = "<group>"; };
 		AAE15CA1DD595BC42B8F69394CA6AAE4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB2D5AE018377694539F6CD8AD169F29 /* Pods-Delta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Delta.modulemap"; sourceTree = "<group>"; };
 		AB95E31E504948D72B33249C9A68CCFD /* Pods-Delta-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Delta-acknowledgements.plist"; sourceTree = "<group>"; };
-		BBA78FD1608B03AB1D91B1954F7E799C /* Bravo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bravo-dummy.m"; sourceTree = "<group>"; };
-		C7B393130678489C47AD6F1FD085BD5A /* Alpha.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alpha.modulemap; sourceTree = "<group>"; };
-		C88163ED60F3F7648C102A94475216CA /* BravoProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BravoProvider.swift; sourceTree = "<group>"; };
+		C40FE52C2874DAA39C8A68E9F664AE7E /* Alpha-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alpha-prefix.pch"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D17AC10CF07689141DB57950C89364CC /* Pods-Delta-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Delta-resources.sh"; sourceTree = "<group>"; };
-		D9B63CFB9604EC2891CBBB3347E41C87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC81C1E9696F32209D98A5F5B9F9730B /* Bravo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bravo-prefix.pch"; sourceTree = "<group>"; };
+		D28B063C3D57A18156F67BD6E07A79E0 /* Alpha-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alpha-dummy.m"; sourceTree = "<group>"; };
+		D709790360CD7A23B5F49A828AD21C45 /* AlphaProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AlphaProvider.h; path = Alpha/Alpha/AlphaProvider.h; sourceTree = "<group>"; };
 		E5A3DD7440B61CF4B26CE0E06538D1CE /* Pods-Delta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Delta-dummy.m"; sourceTree = "<group>"; };
-		EF6C8456A816F457D7B4C07FBF217B3C /* Bravo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bravo-umbrella.h"; sourceTree = "<group>"; };
+		E6A96B1BF16CBCB595D77F2B2053BE16 /* BravoProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BravoProvider.swift; path = Bravo/Bravo/BravoProvider.swift; sourceTree = "<group>"; };
 		F7F41BD97F042138945F6B4646668722 /* Pods-DeltaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeltaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB519DDBA46B5357FF4DD26B01487899 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,14 +164,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3A080037975A451C2D322D430884DAB3 /* Bravo */ = {
+		34C602F028D2103615C348A01202929E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BB33C1A1C30441161C8424A234C6898C /* Bravo */,
-				A427502B49521FADA11E959979F23611 /* Support Files */,
+				775B07F86CF3DF2C1104627E753B25F5 /* Alpha.modulemap */,
+				2ABD621FEBC7833EB18CFD4C777D5776 /* Alpha.xcconfig */,
+				D28B063C3D57A18156F67BD6E07A79E0 /* Alpha-dummy.m */,
+				C40FE52C2874DAA39C8A68E9F664AE7E /* Alpha-prefix.pch */,
+				9CE7948A0BA6FEAA0A468DACF7CE0F02 /* Alpha-umbrella.h */,
+				4112CD54237FE0BEAA826C40B4ED6A64 /* Info.plist */,
 			);
-			name = Bravo;
-			path = ../../Bravo;
+			name = "Support Files";
+			path = "../Target Support Files/Alpha";
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -182,57 +186,36 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4832795E7B012A08ABECB14EE95F399F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4EF44C3AFFDFB1CE3BCA2F47C85F489A /* Alpha */,
-				3A080037975A451C2D322D430884DAB3 /* Bravo */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		4EF44C3AFFDFB1CE3BCA2F47C85F489A /* Alpha */ = {
-			isa = PBXGroup;
-			children = (
-				F195CDDF0A2A0FA0A2E5CEC9A870592A /* Alpha */,
-				C8C85714C04429D7AC2660E7F5955E82 /* Support Files */,
-			);
-			name = Alpha;
-			path = ../../Alpha;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4832795E7B012A08ABECB14EE95F399F /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C782947A4A05BA0CD43F49B5078E7AAF /* Pods */,
 				E28B99DD01E96B16998D63F7991A71CF /* Products */,
 				30D6DAB757FDB5BE6D2366020595FFC5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A427502B49521FADA11E959979F23611 /* Support Files */ = {
+		9E6ACAA97E234CF5EE60DCBE85654796 /* Bravo */ = {
 			isa = PBXGroup;
 			children = (
-				8CC669875159D44D2AE5D4C0F3BD2D0E /* Bravo.modulemap */,
-				962F9874483D32F62C7A895961E0874B /* Bravo.xcconfig */,
-				BBA78FD1608B03AB1D91B1954F7E799C /* Bravo-dummy.m */,
-				DC81C1E9696F32209D98A5F5B9F9730B /* Bravo-prefix.pch */,
-				EF6C8456A816F457D7B4C07FBF217B3C /* Bravo-umbrella.h */,
-				0FFD3FCD504D0B0D1F0D960C8A96BF2C /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Delta/Pods/Target Support Files/Bravo";
-			sourceTree = "<group>";
-		};
-		BB33C1A1C30441161C8424A234C6898C /* Bravo */ = {
-			isa = PBXGroup;
-			children = (
-				535F3CC71A4B5E94B3AAB9EA3B491C3F /* Bravo.h */,
-				C88163ED60F3F7648C102A94475216CA /* BravoProvider.swift */,
+				A7543FB8CD3C795095B0E58B30493032 /* Bravo.h */,
+				E6A96B1BF16CBCB595D77F2B2053BE16 /* BravoProvider.swift */,
+				DECDA076FA136AB5BA3081ADEAF8C0BC /* Support Files */,
 			);
 			path = Bravo;
+			sourceTree = "<group>";
+		};
+		A662F8A68B59F2EE0D3FD624423E8295 /* Alpha */ = {
+			isa = PBXGroup;
+			children = (
+				6C9F0FE3FB0847422AFD0F406DCC0D06 /* Alpha.h */,
+				D709790360CD7A23B5F49A828AD21C45 /* AlphaProvider.h */,
+				88401A20F0462A6DBC77F9C57B313018 /* AlphaProvider.m */,
+				34C602F028D2103615C348A01202929E /* Support Files */,
+			);
+			path = Alpha;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -261,18 +244,27 @@
 			path = "Target Support Files/Pods-DeltaTests";
 			sourceTree = "<group>";
 		};
-		C8C85714C04429D7AC2660E7F5955E82 /* Support Files */ = {
+		C782947A4A05BA0CD43F49B5078E7AAF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C7B393130678489C47AD6F1FD085BD5A /* Alpha.modulemap */,
-				5E9C432F60833425D4CBC77992258AE2 /* Alpha.xcconfig */,
-				14263822D05E0FE0402CB5FBE9B24DAE /* Alpha-dummy.m */,
-				9F2D3467287F3CCEA8ADED54A105A551 /* Alpha-prefix.pch */,
-				4C43BE39CC8822D5C87344F3291F632E /* Alpha-umbrella.h */,
-				D9B63CFB9604EC2891CBBB3347E41C87 /* Info.plist */,
+				A662F8A68B59F2EE0D3FD624423E8295 /* Alpha */,
+				9E6ACAA97E234CF5EE60DCBE85654796 /* Bravo */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DECDA076FA136AB5BA3081ADEAF8C0BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84E986716CC641C3984E737D95A25F8E /* Bravo.modulemap */,
+				1AB4E8C260F85E1893E9642B66864037 /* Bravo.xcconfig */,
+				3834329CD39B41187F0DE4E01AACDCAA /* Bravo-dummy.m */,
+				0C3BFF5878E442298DCB2E7244B9BD45 /* Bravo-prefix.pch */,
+				425C8CE3CF482ECE813B7A6AE8957D2C /* Bravo-umbrella.h */,
+				FB519DDBA46B5357FF4DD26B01487899 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Delta/Pods/Target Support Files/Alpha";
+			path = "../Target Support Files/Bravo";
 			sourceTree = "<group>";
 		};
 		E28B99DD01E96B16998D63F7991A71CF /* Products */ = {
@@ -286,35 +278,25 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F195CDDF0A2A0FA0A2E5CEC9A870592A /* Alpha */ = {
-			isa = PBXGroup;
-			children = (
-				0162B0889C38115451049E141DE922BE /* Alpha.h */,
-				241C1102307F9A77EE4A3BB7D0E3A3A7 /* AlphaProvider.h */,
-				76CCCC65B1F503DAA311158231194E63 /* AlphaProvider.m */,
-			);
-			path = Alpha;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1DB2B8E76AEDD0DEDD3680FA459A6624 /* Headers */ = {
+		1BF596C3910B40C4CEEA9BF2FB46769D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				694560467BD0E720FCF33B752DD5D083 /* Alpha-umbrella.h in Headers */,
-				728893F9E1B4394D7C5E24862A3B9AF3 /* Alpha.h in Headers */,
-				62C6582C23862129F4F1AC307EDED500 /* AlphaProvider.h in Headers */,
+				907CDD636F845711F837B8E80CA33CE7 /* Bravo-umbrella.h in Headers */,
+				D91B688A83CF8B6BBCB290B516858AC2 /* Bravo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		592BB65D6C85E9D79EE7E165BB8F1B8B /* Headers */ = {
+		84282F916D605540449533DCD1B9C4DD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				619673892A2CB123084724EDE7F6AB2D /* Bravo-umbrella.h in Headers */,
-				7B8C746949F90D994731B9E46297EF2E /* Bravo.h in Headers */,
+				20A8033B236A7258D0CDD766FB39DCA6 /* Alpha-umbrella.h in Headers */,
+				CDBA38EFC2735CB988F8AD539A382614 /* Alpha.h in Headers */,
+				47ECCC6767918AF805DB359CD96D439F /* AlphaProvider.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,9 +342,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D3BB2E32E3BF8B0AE61C413129C1D8C /* Build configuration list for PBXNativeTarget "Bravo" */;
 			buildPhases = (
-				EC63286204FEFD32A2A788831E6B8C0A /* Sources */,
+				66365138084D3C183ED3BA48A6679E9E /* Sources */,
 				AB6E5CE9C193BF7211774965DCBF74BF /* Frameworks */,
-				592BB65D6C85E9D79EE7E165BB8F1B8B /* Headers */,
+				1BF596C3910B40C4CEEA9BF2FB46769D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -396,9 +378,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD59A66944A0255AA81B2F75E6F79949 /* Build configuration list for PBXNativeTarget "Alpha" */;
 			buildPhases = (
-				90441DC72099FEA0FBED3231DEE68E44 /* Sources */,
+				D5E6B32785611EAE2D062EDE9818A036 /* Sources */,
 				471A2EAFB37E11A156EAE93226BF350C /* Frameworks */,
-				1DB2B8E76AEDD0DEDD3680FA459A6624 /* Headers */,
+				84282F916D605540449533DCD1B9C4DD /* Headers */,
 			);
 			buildRules = (
 			);
@@ -447,12 +429,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90441DC72099FEA0FBED3231DEE68E44 /* Sources */ = {
+		66365138084D3C183ED3BA48A6679E9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FF8D6B9443AE85B88AE2066885CDA45 /* Alpha-dummy.m in Sources */,
-				83C74B0E1C15690CF0EF76584C7C1A69 /* AlphaProvider.m in Sources */,
+				B16E368151D7D9615F7F8DA627E1BE98 /* Bravo-dummy.m in Sources */,
+				A9F29400E9D5D482BCEC1FC4193DD274 /* BravoProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E6B32785611EAE2D062EDE9818A036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E09AEB369E2D174E1187182519A9E90 /* Alpha-dummy.m in Sources */,
+				908B099CE1065EFC80DFEC903C36F236 /* AlphaProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,15 +452,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C016ABF9C3AE6F4636ABC27C8105DAE /* Pods-DeltaTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EC63286204FEFD32A2A788831E6B8C0A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9693935A729CC75E3AB633FD111F1EA2 /* Bravo-dummy.m in Sources */,
-				20E2A90A6E3BE451D3EB4ADA0CB50AB7 /* BravoProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,7 +531,7 @@
 		};
 		216FEC97425900F1984B4D8CA8306437 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E9C432F60833425D4CBC77992258AE2 /* Alpha.xcconfig */;
+			baseConfigurationReference = 2ABD621FEBC7833EB18CFD4C777D5776 /* Alpha.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -612,7 +594,7 @@
 		};
 		547D12E91F0F5C2CABFEBA92BD3C9356 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E9C432F60833425D4CBC77992258AE2 /* Alpha.xcconfig */;
+			baseConfigurationReference = 2ABD621FEBC7833EB18CFD4C777D5776 /* Alpha.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -641,7 +623,7 @@
 		};
 		5AF6AD77CAAFBA3F1C95BBD23AA91678 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 962F9874483D32F62C7A895961E0874B /* Bravo.xcconfig */;
+			baseConfigurationReference = 1AB4E8C260F85E1893E9642B66864037 /* Bravo.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -811,7 +793,7 @@
 		};
 		FF18B850E20E6118A5E7FF53B8F989B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 962F9874483D32F62C7A895961E0874B /* Bravo.xcconfig */;
+			baseConfigurationReference = 1AB4E8C260F85E1893E9642B66864037 /* Bravo.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;

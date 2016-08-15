@@ -9,6 +9,14 @@
     "path": "."
   },
   "source_files": "Charlie/**/*.{swift,h,m}",
+  "dependencies": {
+    "Alpha": [
+      "~> 1.0"
+    ],
+    "Bravo": [
+      "~> 1.0"
+    ]
+  },
   "platforms": {
     "ios": "8.0"
   },

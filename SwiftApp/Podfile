@@ -1,3 +1,4 @@
+source 'https://github.com/nicksnyder/Specs.git'
 use_frameworks!
 
 target 'SwiftApp' do

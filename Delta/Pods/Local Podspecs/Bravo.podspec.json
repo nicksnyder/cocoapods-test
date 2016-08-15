@@ -1,14 +1,14 @@
 {
   "name": "Bravo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "private",
   "homepage": "https://github.com/nicksnyder/cocoapods-test",
   "authors": "Nick",
   "summary": "Bravo",
   "source": {
-    "path": "."
+    "git": "https://github.com/nicksnyder/cocoapods-test.git"
   },
-  "source_files": "Bravo/**/*.{swift,h,m}",
+  "source_files": "Bravo/Bravo/*.{swift,h,m}",
   "platforms": {
     "ios": "8.0"
   },

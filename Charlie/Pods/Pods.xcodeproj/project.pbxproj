@@ -9,24 +9,24 @@
 /* Begin PBXBuildFile section */
 		14160C3FE42720EFCD0DD1378758805E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		1BAA2F7DAC48BAA72BC288A9674E39CC /* Pods-CharlieTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 811F5D697282656396AC0F1E1B74F690 /* Pods-CharlieTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20E2A90A6E3BE451D3EB4ADA0CB50AB7 /* BravoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0671B2DAD7739F96B726610DE9000690 /* BravoProvider.swift */; };
+		20A8033B236A7258D0CDD766FB39DCA6 /* Alpha-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE7948A0BA6FEAA0A468DACF7CE0F02 /* Alpha-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E09AEB369E2D174E1187182519A9E90 /* Alpha-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D28B063C3D57A18156F67BD6E07A79E0 /* Alpha-dummy.m */; };
 		47D6F8315A0EEFF73ED04774258392B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		47ECCC6767918AF805DB359CD96D439F /* AlphaProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = D709790360CD7A23B5F49A828AD21C45 /* AlphaProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BC701589B6E4C7E72B36090FEFF3422 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		5D713EE67CBEE7C26A23118F925EF2DC /* Pods-CharlieSampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D23A1D3D430ADE22E4F1B8F842E2C427 /* Pods-CharlieSampleApp-dummy.m */; };
-		619673892A2CB123084724EDE7F6AB2D /* Bravo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4CBF0AC9D3968C6561CFC1CA6171D2B /* Bravo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62C6582C23862129F4F1AC307EDED500 /* AlphaProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D7D8A7CAA53F64D5B3193A53BB591F /* AlphaProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		694560467BD0E720FCF33B752DD5D083 /* Alpha-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A91638ED970F7E197F5350F0AAECF14E /* Alpha-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D240FDA94BFAD1E3BAB5D2C9491E4A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		6E7696206A91655456816DE9CFC16F8B /* Pods-CharlieSampleApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22952ADBD12F4E6FA36B504409AA7D4A /* Pods-CharlieSampleApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		728893F9E1B4394D7C5E24862A3B9AF3 /* Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = B69CD6F2B52FB485A4AC96CF8383AA69 /* Alpha.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		787F636F1262FEFF73E15405CCFB506D /* Pods-Charlie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FBF55F811D9636D98462B976754CE2 /* Pods-Charlie-dummy.m */; };
-		7B8C746949F90D994731B9E46297EF2E /* Bravo.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA01A6E3D1DA127CA4E09A96262E83E /* Bravo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FF8D6B9443AE85B88AE2066885CDA45 /* Alpha-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1891D4C1173E9B474FE6F11B153DD5 /* Alpha-dummy.m */; };
-		83C74B0E1C15690CF0EF76584C7C1A69 /* AlphaProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD04FEF9E8EC626F7670DAD0BEB587 /* AlphaProvider.m */; };
-		9693935A729CC75E3AB633FD111F1EA2 /* Bravo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27118833EDBEF266767C372E623EA071 /* Bravo-dummy.m */; };
+		907CDD636F845711F837B8E80CA33CE7 /* Bravo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 425C8CE3CF482ECE813B7A6AE8957D2C /* Bravo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		908B099CE1065EFC80DFEC903C36F236 /* AlphaProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 88401A20F0462A6DBC77F9C57B313018 /* AlphaProvider.m */; };
+		A9F29400E9D5D482BCEC1FC4193DD274 /* BravoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A96B1BF16CBCB595D77F2B2053BE16 /* BravoProvider.swift */; };
+		B16E368151D7D9615F7F8DA627E1BE98 /* Bravo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834329CD39B41187F0DE4E01AACDCAA /* Bravo-dummy.m */; };
 		C1939C83917E50B6A178EF8390D11830 /* Pods-CharlieTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B0D14A501F7DAEE904964D22DFA733 /* Pods-CharlieTests-dummy.m */; };
 		C3B9C51C633C1447139131F771A51BEF /* Pods-Charlie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C312C7E00BD5BE8E2B2E136DABED4312 /* Pods-Charlie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDBA38EFC2735CB988F8AD539A382614 /* Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C9F0FE3FB0847422AFD0F406DCC0D06 /* Alpha.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D567D5E4B8AC6925B5515D6FB4A45721 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D91B688A83CF8B6BBCB290B516858AC2 /* Bravo.h in Headers */ = {isa = PBXBuildFile; fileRef = A7543FB8CD3C795095B0E58B30493032 /* Bravo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,57 +77,57 @@
 /* Begin PBXFileReference section */
 		00474DBB4A4C65624190E02FDFF4EB87 /* Pods-CharlieTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CharlieTests-resources.sh"; sourceTree = "<group>"; };
 		0094F59B0825DB1DC16AC221907033B8 /* Pods-CharlieTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CharlieTests.modulemap"; sourceTree = "<group>"; };
-		0671B2DAD7739F96B726610DE9000690 /* BravoProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BravoProvider.swift; sourceTree = "<group>"; };
+		0C3BFF5878E442298DCB2E7244B9BD45 /* Bravo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bravo-prefix.pch"; sourceTree = "<group>"; };
 		164E3F8D963E1387114E81E8FB36B00A /* Pods_CharlieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CharlieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A5FD39A8051C8957314BD2175E40C33 /* Bravo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bravo.xcconfig; sourceTree = "<group>"; };
-		1CE3E406BC81641D681AC47C52488C61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB4E8C260F85E1893E9642B66864037 /* Bravo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bravo.xcconfig; sourceTree = "<group>"; };
 		22952ADBD12F4E6FA36B504409AA7D4A /* Pods-CharlieSampleApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CharlieSampleApp-umbrella.h"; sourceTree = "<group>"; };
-		27118833EDBEF266767C372E623EA071 /* Bravo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bravo-dummy.m"; sourceTree = "<group>"; };
 		29043D77832CE3B0C12E49503D92B0D4 /* Pods-CharlieTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CharlieTests-frameworks.sh"; sourceTree = "<group>"; };
 		2943D00528EB0A0F741FE3AE4B02DC89 /* Pods_Charlie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Charlie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F5943026AD8617FB03C3A3894F9EB0 /* Alpha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alpha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C1891D4C1173E9B474FE6F11B153DD5 /* Alpha-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alpha-dummy.m"; sourceTree = "<group>"; };
+		2ABD621FEBC7833EB18CFD4C777D5776 /* Alpha.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alpha.xcconfig; sourceTree = "<group>"; };
 		2D5966AECCF7A18C6E968455C150E48B /* Pods-Charlie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Charlie.debug.xcconfig"; sourceTree = "<group>"; };
-		2FBD04FEF9E8EC626F7670DAD0BEB587 /* AlphaProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlphaProvider.m; sourceTree = "<group>"; };
-		376B0EADD1187414F17587EE197DD6B8 /* Alpha.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alpha.modulemap; sourceTree = "<group>"; };
+		3834329CD39B41187F0DE4E01AACDCAA /* Bravo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bravo-dummy.m"; sourceTree = "<group>"; };
 		3D95288F33E63A99E1535F1AE1961FA7 /* Pods-CharlieSampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CharlieSampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		40AF0F5494F5C064CA47EC3F5BD9D6B0 /* Pods-CharlieSampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CharlieSampleApp.modulemap"; sourceTree = "<group>"; };
+		4112CD54237FE0BEAA826C40B4ED6A64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425C8CE3CF482ECE813B7A6AE8957D2C /* Bravo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bravo-umbrella.h"; sourceTree = "<group>"; };
 		52DCE0896AF5424D35447475B28A617B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		560DD8AB2F4E532CB4DEC8BAD7AD405B /* Pods-CharlieTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CharlieTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		58FBF55F811D9636D98462B976754CE2 /* Pods-Charlie-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Charlie-dummy.m"; sourceTree = "<group>"; };
 		5A3739D671C5EC953470C0682E852A2A /* Pods-Charlie-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Charlie-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5CB80547AC69996755053CEF69B95F24 /* Pods-CharlieSampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CharlieSampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7077AA2C8EBBF9A5BA0B03D46079BD90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73B547BD383AF2C444B2EADCDF18B3C7 /* Alpha.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alpha.xcconfig; sourceTree = "<group>"; };
+		6C9F0FE3FB0847422AFD0F406DCC0D06 /* Alpha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Alpha.h; path = Alpha/Alpha/Alpha.h; sourceTree = "<group>"; };
+		775B07F86CF3DF2C1104627E753B25F5 /* Alpha.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alpha.modulemap; sourceTree = "<group>"; };
 		77B0D14A501F7DAEE904964D22DFA733 /* Pods-CharlieTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CharlieTests-dummy.m"; sourceTree = "<group>"; };
 		784929874004126FBCD73E5A4C7661E7 /* Pods-Charlie-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Charlie-resources.sh"; sourceTree = "<group>"; };
 		7AA4A62E2F0FDC415E17451EEBBCA4C1 /* Bravo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bravo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA17F20594601BE77EA040DE44A163C /* Pods-CharlieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CharlieTests.debug.xcconfig"; sourceTree = "<group>"; };
 		811F5D697282656396AC0F1E1B74F690 /* Pods-CharlieTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CharlieTests-umbrella.h"; sourceTree = "<group>"; };
-		85D7D8A7CAA53F64D5B3193A53BB591F /* AlphaProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlphaProvider.h; sourceTree = "<group>"; };
+		84E986716CC641C3984E737D95A25F8E /* Bravo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Bravo.modulemap; sourceTree = "<group>"; };
+		88401A20F0462A6DBC77F9C57B313018 /* AlphaProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AlphaProvider.m; path = Alpha/Alpha/AlphaProvider.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		975C0CBF9E454B47DEA85207553B5479 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CE7948A0BA6FEAA0A468DACF7CE0F02 /* Alpha-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alpha-umbrella.h"; sourceTree = "<group>"; };
 		9E1C74B2C59233C8AEFE407497AA379F /* Pods-CharlieSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CharlieSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		9EAB790D1C92C8207F968F9C62E4026D /* Pods-CharlieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CharlieTests.release.xcconfig"; sourceTree = "<group>"; };
-		A91638ED970F7E197F5350F0AAECF14E /* Alpha-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alpha-umbrella.h"; sourceTree = "<group>"; };
-		AAA01A6E3D1DA127CA4E09A96262E83E /* Bravo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Bravo.h; sourceTree = "<group>"; };
+		A7543FB8CD3C795095B0E58B30493032 /* Bravo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bravo.h; path = Bravo/Bravo/Bravo.h; sourceTree = "<group>"; };
 		AD979C73DAE04F92948D145EA1818FEB /* Pods-Charlie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Charlie.release.xcconfig"; sourceTree = "<group>"; };
-		B1B50FDBAB4B21F246775AA685CC67CE /* Bravo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bravo-prefix.pch"; sourceTree = "<group>"; };
-		B4CBF0AC9D3968C6561CFC1CA6171D2B /* Bravo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bravo-umbrella.h"; sourceTree = "<group>"; };
-		B69CD6F2B52FB485A4AC96CF8383AA69 /* Alpha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Alpha.h; sourceTree = "<group>"; };
-		BC9695F44E29D06A2E26112BE10F9A3E /* Bravo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Bravo.modulemap; sourceTree = "<group>"; };
 		C312C7E00BD5BE8E2B2E136DABED4312 /* Pods-Charlie-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Charlie-umbrella.h"; sourceTree = "<group>"; };
+		C40FE52C2874DAA39C8A68E9F664AE7E /* Alpha-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alpha-prefix.pch"; sourceTree = "<group>"; };
 		C5B52DB35B0CA8CF619D6C3EB8DACB8E /* Pods-Charlie.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Charlie.modulemap"; sourceTree = "<group>"; };
 		C8830C1EEDB72BAA6DB1001069FE1A9A /* Pods-Charlie-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Charlie-acknowledgements.plist"; sourceTree = "<group>"; };
 		CC94402531C92A3EE9689072650DEA8C /* Pods-CharlieSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CharlieSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D23A1D3D430ADE22E4F1B8F842E2C427 /* Pods-CharlieSampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CharlieSampleApp-dummy.m"; sourceTree = "<group>"; };
+		D28B063C3D57A18156F67BD6E07A79E0 /* Alpha-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alpha-dummy.m"; sourceTree = "<group>"; };
+		D709790360CD7A23B5F49A828AD21C45 /* AlphaProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AlphaProvider.h; path = Alpha/Alpha/AlphaProvider.h; sourceTree = "<group>"; };
 		DA59D88389509EE90D8B60EDC201755A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E6F559D86A00C695F761A6E51542B97D /* Alpha-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alpha-prefix.pch"; sourceTree = "<group>"; };
+		E6A96B1BF16CBCB595D77F2B2053BE16 /* BravoProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BravoProvider.swift; path = Bravo/Bravo/BravoProvider.swift; sourceTree = "<group>"; };
 		E9BF0CA90814EF8F4D156306F67061DC /* Pods-CharlieSampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CharlieSampleApp-frameworks.sh"; sourceTree = "<group>"; };
 		EE260F9749F9B0DA4E093190694AF3E2 /* Pods-CharlieTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CharlieTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F19D173E96C06576D22874C05FFEB6F6 /* Pods-CharlieSampleApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CharlieSampleApp-resources.sh"; sourceTree = "<group>"; };
 		F80D6CCAA13CA03205D99DAA7E165314 /* Pods_CharlieSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CharlieSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB519DDBA46B5357FF4DD26B01487899 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,15 +174,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0939707A6E8CD2D26516E01A6856DA1A /* Bravo */ = {
-			isa = PBXGroup;
-			children = (
-				AAA01A6E3D1DA127CA4E09A96262E83E /* Bravo.h */,
-				0671B2DAD7739F96B726610DE9000690 /* BravoProvider.swift */,
-			);
-			path = Bravo;
-			sourceTree = "<group>";
-		};
 		0955B18520FC68438ADA42C7334B482F /* Pods-Charlie */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,21 +203,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		34C602F028D2103615C348A01202929E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				775B07F86CF3DF2C1104627E753B25F5 /* Alpha.modulemap */,
+				2ABD621FEBC7833EB18CFD4C777D5776 /* Alpha.xcconfig */,
+				D28B063C3D57A18156F67BD6E07A79E0 /* Alpha-dummy.m */,
+				C40FE52C2874DAA39C8A68E9F664AE7E /* Alpha-prefix.pch */,
+				9CE7948A0BA6FEAA0A468DACF7CE0F02 /* Alpha-umbrella.h */,
+				4112CD54237FE0BEAA826C40B4ED6A64 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alpha";
+			sourceTree = "<group>";
+		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		4832795E7B012A08ABECB14EE95F399F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E2C8D307E8CDBB693897BB2609A98621 /* Alpha */,
-				87B6A622B7F1785A185A51583AA68EE2 /* Bravo */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		505C0DC70D601152F70E2C97D83B7143 /* Targets Support Files */ = {
@@ -279,49 +275,32 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4832795E7B012A08ABECB14EE95F399F /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C782947A4A05BA0CD43F49B5078E7AAF /* Pods */,
 				15E9AFDF34F2592F8857EEC2000CA1D5 /* Products */,
 				505C0DC70D601152F70E2C97D83B7143 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		87B6A622B7F1785A185A51583AA68EE2 /* Bravo */ = {
+		9E6ACAA97E234CF5EE60DCBE85654796 /* Bravo */ = {
 			isa = PBXGroup;
 			children = (
-				0939707A6E8CD2D26516E01A6856DA1A /* Bravo */,
-				B5DC1DC32746A07E504EF5E69A0365E0 /* Support Files */,
+				A7543FB8CD3C795095B0E58B30493032 /* Bravo.h */,
+				E6A96B1BF16CBCB595D77F2B2053BE16 /* BravoProvider.swift */,
+				DECDA076FA136AB5BA3081ADEAF8C0BC /* Support Files */,
 			);
-			name = Bravo;
-			path = ../../Bravo;
+			path = Bravo;
 			sourceTree = "<group>";
 		};
-		B5DC1DC32746A07E504EF5E69A0365E0 /* Support Files */ = {
+		A662F8A68B59F2EE0D3FD624423E8295 /* Alpha */ = {
 			isa = PBXGroup;
 			children = (
-				BC9695F44E29D06A2E26112BE10F9A3E /* Bravo.modulemap */,
-				1A5FD39A8051C8957314BD2175E40C33 /* Bravo.xcconfig */,
-				27118833EDBEF266767C372E623EA071 /* Bravo-dummy.m */,
-				B1B50FDBAB4B21F246775AA685CC67CE /* Bravo-prefix.pch */,
-				B4CBF0AC9D3968C6561CFC1CA6171D2B /* Bravo-umbrella.h */,
-				1CE3E406BC81641D681AC47C52488C61 /* Info.plist */,
+				6C9F0FE3FB0847422AFD0F406DCC0D06 /* Alpha.h */,
+				D709790360CD7A23B5F49A828AD21C45 /* AlphaProvider.h */,
+				88401A20F0462A6DBC77F9C57B313018 /* AlphaProvider.m */,
+				34C602F028D2103615C348A01202929E /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Charlie/Pods/Target Support Files/Bravo";
-			sourceTree = "<group>";
-		};
-		B9FC31FBC1D59758247DD8F0F6727388 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				376B0EADD1187414F17587EE197DD6B8 /* Alpha.modulemap */,
-				73B547BD383AF2C444B2EADCDF18B3C7 /* Alpha.xcconfig */,
-				2C1891D4C1173E9B474FE6F11B153DD5 /* Alpha-dummy.m */,
-				E6F559D86A00C695F761A6E51542B97D /* Alpha-prefix.pch */,
-				A91638ED970F7E197F5350F0AAECF14E /* Alpha-umbrella.h */,
-				7077AA2C8EBBF9A5BA0B03D46079BD90 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Charlie/Pods/Target Support Files/Alpha";
+			path = Alpha;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -332,24 +311,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C04F6F887FBF9B63044F5DDE5FF530A0 /* Alpha */ = {
+		C782947A4A05BA0CD43F49B5078E7AAF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B69CD6F2B52FB485A4AC96CF8383AA69 /* Alpha.h */,
-				85D7D8A7CAA53F64D5B3193A53BB591F /* AlphaProvider.h */,
-				2FBD04FEF9E8EC626F7670DAD0BEB587 /* AlphaProvider.m */,
+				A662F8A68B59F2EE0D3FD624423E8295 /* Alpha */,
+				9E6ACAA97E234CF5EE60DCBE85654796 /* Bravo */,
 			);
-			path = Alpha;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		E2C8D307E8CDBB693897BB2609A98621 /* Alpha */ = {
+		DECDA076FA136AB5BA3081ADEAF8C0BC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C04F6F887FBF9B63044F5DDE5FF530A0 /* Alpha */,
-				B9FC31FBC1D59758247DD8F0F6727388 /* Support Files */,
+				84E986716CC641C3984E737D95A25F8E /* Bravo.modulemap */,
+				1AB4E8C260F85E1893E9642B66864037 /* Bravo.xcconfig */,
+				3834329CD39B41187F0DE4E01AACDCAA /* Bravo-dummy.m */,
+				0C3BFF5878E442298DCB2E7244B9BD45 /* Bravo-prefix.pch */,
+				425C8CE3CF482ECE813B7A6AE8957D2C /* Bravo-umbrella.h */,
+				FB519DDBA46B5357FF4DD26B01487899 /* Info.plist */,
 			);
-			name = Alpha;
-			path = ../../Alpha;
+			name = "Support Files";
+			path = "../Target Support Files/Bravo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,22 +345,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1DB2B8E76AEDD0DEDD3680FA459A6624 /* Headers */ = {
+		1BF596C3910B40C4CEEA9BF2FB46769D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				694560467BD0E720FCF33B752DD5D083 /* Alpha-umbrella.h in Headers */,
-				728893F9E1B4394D7C5E24862A3B9AF3 /* Alpha.h in Headers */,
-				62C6582C23862129F4F1AC307EDED500 /* AlphaProvider.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		592BB65D6C85E9D79EE7E165BB8F1B8B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				619673892A2CB123084724EDE7F6AB2D /* Bravo-umbrella.h in Headers */,
-				7B8C746949F90D994731B9E46297EF2E /* Bravo.h in Headers */,
+				907CDD636F845711F837B8E80CA33CE7 /* Bravo-umbrella.h in Headers */,
+				D91B688A83CF8B6BBCB290B516858AC2 /* Bravo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +359,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E7696206A91655456816DE9CFC16F8B /* Pods-CharlieSampleApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84282F916D605540449533DCD1B9C4DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A8033B236A7258D0CDD766FB39DCA6 /* Alpha-umbrella.h in Headers */,
+				CDBA38EFC2735CB988F8AD539A382614 /* Alpha.h in Headers */,
+				47ECCC6767918AF805DB359CD96D439F /* AlphaProvider.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,9 +425,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D3BB2E32E3BF8B0AE61C413129C1D8C /* Build configuration list for PBXNativeTarget "Bravo" */;
 			buildPhases = (
-				EC63286204FEFD32A2A788831E6B8C0A /* Sources */,
+				66365138084D3C183ED3BA48A6679E9E /* Sources */,
 				AB6E5CE9C193BF7211774965DCBF74BF /* Frameworks */,
-				592BB65D6C85E9D79EE7E165BB8F1B8B /* Headers */,
+				1BF596C3910B40C4CEEA9BF2FB46769D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -460,9 +442,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD59A66944A0255AA81B2F75E6F79949 /* Build configuration list for PBXNativeTarget "Alpha" */;
 			buildPhases = (
-				90441DC72099FEA0FBED3231DEE68E44 /* Sources */,
+				D5E6B32785611EAE2D062EDE9818A036 /* Sources */,
 				471A2EAFB37E11A156EAE93226BF350C /* Frameworks */,
-				1DB2B8E76AEDD0DEDD3680FA459A6624 /* Headers */,
+				84282F916D605540449533DCD1B9C4DD /* Headers */,
 			);
 			buildRules = (
 			);
@@ -523,12 +505,21 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		90441DC72099FEA0FBED3231DEE68E44 /* Sources */ = {
+		66365138084D3C183ED3BA48A6679E9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FF8D6B9443AE85B88AE2066885CDA45 /* Alpha-dummy.m in Sources */,
-				83C74B0E1C15690CF0EF76584C7C1A69 /* AlphaProvider.m in Sources */,
+				B16E368151D7D9615F7F8DA627E1BE98 /* Bravo-dummy.m in Sources */,
+				A9F29400E9D5D482BCEC1FC4193DD274 /* BravoProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E6B32785611EAE2D062EDE9818A036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E09AEB369E2D174E1187182519A9E90 /* Alpha-dummy.m in Sources */,
+				908B099CE1065EFC80DFEC903C36F236 /* AlphaProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,15 +536,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				787F636F1262FEFF73E15405CCFB506D /* Pods-Charlie-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EC63286204FEFD32A2A788831E6B8C0A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9693935A729CC75E3AB633FD111F1EA2 /* Bravo-dummy.m in Sources */,
-				20E2A90A6E3BE451D3EB4ADA0CB50AB7 /* BravoProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -720,7 +702,7 @@
 		};
 		216FEC97425900F1984B4D8CA8306437 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73B547BD383AF2C444B2EADCDF18B3C7 /* Alpha.xcconfig */;
+			baseConfigurationReference = 2ABD621FEBC7833EB18CFD4C777D5776 /* Alpha.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -789,7 +771,7 @@
 		};
 		547D12E91F0F5C2CABFEBA92BD3C9356 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73B547BD383AF2C444B2EADCDF18B3C7 /* Alpha.xcconfig */;
+			baseConfigurationReference = 2ABD621FEBC7833EB18CFD4C777D5776 /* Alpha.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -818,7 +800,7 @@
 		};
 		5AF6AD77CAAFBA3F1C95BBD23AA91678 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A5FD39A8051C8957314BD2175E40C33 /* Bravo.xcconfig */;
+			baseConfigurationReference = 1AB4E8C260F85E1893E9642B66864037 /* Bravo.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -982,7 +964,7 @@
 		};
 		FF18B850E20E6118A5E7FF53B8F989B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A5FD39A8051C8957314BD2175E40C33 /* Bravo.xcconfig */;
+			baseConfigurationReference = 1AB4E8C260F85E1893E9642B66864037 /* Bravo.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;

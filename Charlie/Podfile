@@ -2,8 +2,8 @@ source 'https://github.com/nicksnyder/Specs.git'
 use_frameworks!
 
 target 'Charlie' do
-  pod 'Alpha', :path => '../Alpha/'
-  pod 'Bravo', :path => '../Bravo/'
+  pod 'Alpha'
+  pod 'Bravo'
 
   target 'CharlieTests' do
     inherit! :search_paths
