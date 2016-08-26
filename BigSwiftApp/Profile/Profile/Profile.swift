@@ -7,9 +7,16 @@
 //
 
 import Foundation
+import Delta
+import Alpha
+import Bravo
 
 public class Profile {
+    public init() {
+
+    }
+    
     public func profile() -> String {
-        return "the profile"
+        return "the profile" + DeltaProvider().delta(alphaProvider: AlphaProvider(), bravoProvider: BravoProvider())
     }
 }

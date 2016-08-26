@@ -1,0 +1,23 @@
+PODS:
+  - Alpha (2.0.0)
+  - Bravo (2.0.0)
+  - Charlie (2.0.0):
+    - Alpha (~> 2.0)
+    - Bravo (~> 2.0)
+  - Delta (2.0.0):
+    - Alpha (~> 2.0)
+    - Bravo (~> 2.0)
+
+DEPENDENCIES:
+  - Charlie (~> 2.0)
+  - Delta (~> 2.0)
+
+SPEC CHECKSUMS:
+  Alpha: 8181840232c20cb597f927a6d9d8ea6b30e22a71
+  Bravo: 0c08340e18d9711882ba1636856c8cc283baeeca
+  Charlie: 40ff42b00a42b3c2c0afc9ff9c7c6fb6d754ad57
+  Delta: 169ade8fbb337ac8199207717d68ff15e6e54df7
+
+PODFILE CHECKSUM: 8b9e6a89ab15eddaed81880ca951e6e9ef264cd2
+
+COCOAPODS: 1.1.0.beta.1

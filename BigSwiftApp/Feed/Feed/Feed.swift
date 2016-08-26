@@ -7,10 +7,15 @@
 //
 
 import Foundation
+import Charlie
 
 public class Feed {
 
+    public init() {
+
+    }
+    
     public func getFeed() -> String {
-        return "the feed"
+        return "the feed" + CharlieProvider().charlieWithAlphaProvider(AlphaProvider(), bravoProvider: BravoProvider())
     }
 }

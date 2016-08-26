@@ -1,0 +1,36 @@
+source 'git@github.com:nicksnyder/Specs.git'
+workspace 'app.xcworkspace'
+use_frameworks!
+
+pod 'Charlie', '~> 2.0'
+pod 'Delta', '~> 2.0'
+
+target 'App' do
+  project 'App/App.xcodeproj'
+
+  target 'AppTests' do
+    inherit! :search_paths
+  end
+
+  target 'AppUITests' do
+    inherit! :search_paths
+  end
+end
+
+target 'Feed' do
+  project 'Feed/Feed.xcodeproj'
+
+  target 'FeedTests' do
+    inherit! :search_paths
+  end
+
+end
+
+target 'Profile' do
+  project 'Profile/Profile.xcodeproj'
+
+  target 'ProfileTests' do
+    inherit! :search_paths
+  end
+
+end
