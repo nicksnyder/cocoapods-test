@@ -101,7 +101,7 @@ SOFTWARE.
 			<key>License</key>
 			<string>private</string>
 			<key>Title</key>
-			<string>Charlie</string>
+			<string>Delta</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
@@ -132,7 +132,7 @@ SOFTWARE.
 			<key>License</key>
 			<string>private</string>
 			<key>Title</key>
-			<string>Delta</string>
+			<string>Charlie</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

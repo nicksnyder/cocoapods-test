@@ -3,17 +3,22 @@ workspace 'app.xcworkspace'
 use_frameworks!
 
 pod 'Charlie', '~> 2.0'
-pod 'Delta', '~> 2.0'
+
+def test_dependencies
+  pod 'Delta', '~> 2.0'
+end
 
 target 'App' do
   project 'App/App.xcodeproj'
 
   target 'AppTests' do
     inherit! :search_paths
+    test_dependencies
   end
 
   target 'AppUITests' do
     inherit! :search_paths
+    test_dependencies
   end
 end
 
@@ -22,6 +27,7 @@ target 'Feed' do
 
   target 'FeedTests' do
     inherit! :search_paths
+    test_dependencies
   end
 
 end
@@ -31,6 +37,7 @@ target 'Profile' do
 
   target 'ProfileTests' do
     inherit! :search_paths
+    test_dependencies
   end
 
 end

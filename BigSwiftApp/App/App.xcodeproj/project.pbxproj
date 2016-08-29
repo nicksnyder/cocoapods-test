@@ -15,8 +15,10 @@
 		0B5050981D6FF5070053C8D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B5050961D6FF5070053C8D0 /* LaunchScreen.storyboard */; };
 		0B5050A31D6FF5070053C8D0 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5050A21D6FF5070053C8D0 /* AppTests.swift */; };
 		0B5050AE1D6FF5070053C8D0 /* AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5050AD1D6FF5070053C8D0 /* AppUITests.swift */; };
-		0B5050BC1D6FF8A70053C8D0 /* Feed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5050BB1D6FF8A70053C8D0 /* Feed.framework */; };
-		0B5050C01D6FF9A90053C8D0 /* Profile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5050BF1D6FF9A90053C8D0 /* Profile.framework */; };
+		0B5050CA1D70EC1F0053C8D0 /* Profile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5050C91D70EC1F0053C8D0 /* Profile.framework */; };
+		0B5050CB1D70EC1F0053C8D0 /* Profile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5050C91D70EC1F0053C8D0 /* Profile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0B5050CE1D70EC280053C8D0 /* Feed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5050CD1D70EC280053C8D0 /* Feed.framework */; };
+		0B5050CF1D70EC280053C8D0 /* Feed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5050CD1D70EC280053C8D0 /* Feed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		15562866D76B2FE8F2CC590C /* Pods_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A34D9D9690A05E0315600A7B /* Pods_AppUITests.framework */; };
 		CE45C780A60FB5F5C31CD67C /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3873E0E271982DA5991DE71F /* Pods_App.framework */; };
 /* End PBXBuildFile section */
@@ -38,6 +40,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0B5050CC1D70EC1F0053C8D0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0B5050CF1D70EC280053C8D0 /* Feed.framework in Embed Frameworks */,
+				0B5050CB1D70EC1F0053C8D0 /* Profile.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0B50508A1D6FF5070053C8D0 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B50508D1D6FF5070053C8D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,9 +69,8 @@
 		0B5050A91D6FF5070053C8D0 /* AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B5050AD1D6FF5070053C8D0 /* AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUITests.swift; sourceTree = "<group>"; };
 		0B5050AF1D6FF5070053C8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B5050BB1D6FF8A70053C8D0 /* Feed.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Feed.framework; path = "../Feed/build/Release-iphoneos/Feed.framework"; sourceTree = "<group>"; };
-		0B5050BD1D6FF99A0053C8D0 /* Delta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Delta.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/app-hbxglvpvbgqrofhlfnyqsjzshsmn/Build/Products/Debug-iphonesimulator/Delta/Delta.framework"; sourceTree = "<group>"; };
-		0B5050BF1D6FF9A90053C8D0 /* Profile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Profile.framework; path = "../Profile/build/Debug-iphoneos/Profile.framework"; sourceTree = "<group>"; };
+		0B5050C91D70EC1F0053C8D0 /* Profile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Profile.framework; path = "/Users/nsnyder/code/nick/cocoapods-test/BigSwiftApp/DerivedData/app/Build/Products/Debug-iphoneos/Profile.framework"; sourceTree = "<absolute>"; };
+		0B5050CD1D70EC280053C8D0 /* Feed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Feed.framework; path = "/Users/nsnyder/code/nick/cocoapods-test/BigSwiftApp/DerivedData/app/Build/Products/Debug-iphoneos/Feed.framework"; sourceTree = "<absolute>"; };
 		2F87F9E06C28D2EEDAD83CED /* Pods_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3622E8DE3CC759592D13750D /* Pods-AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppUITests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-AppUITests/Pods-AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3873E0E271982DA5991DE71F /* Pods_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,8 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B5050C01D6FF9A90053C8D0 /* Profile.framework in Frameworks */,
-				0B5050BC1D6FF8A70053C8D0 /* Feed.framework in Frameworks */,
+				0B5050CE1D70EC280053C8D0 /* Feed.framework in Frameworks */,
+				0B5050CA1D70EC1F0053C8D0 /* Profile.framework in Frameworks */,
 				CE45C780A60FB5F5C31CD67C /* Pods_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,6 +115,8 @@
 		0B5050811D6FF5070053C8D0 = {
 			isa = PBXGroup;
 			children = (
+				0B5050CD1D70EC280053C8D0 /* Feed.framework */,
+				0B5050C91D70EC1F0053C8D0 /* Profile.framework */,
 				0B50508C1D6FF5070053C8D0 /* App */,
 				0B5050A11D6FF5070053C8D0 /* AppTests */,
 				0B5050AC1D6FF5070053C8D0 /* AppUITests */,
@@ -165,9 +183,6 @@
 		71CCA01D73AC774BDA43A9FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0B5050BF1D6FF9A90053C8D0 /* Profile.framework */,
-				0B5050BD1D6FF99A0053C8D0 /* Delta.framework */,
-				0B5050BB1D6FF8A70053C8D0 /* Feed.framework */,
 				3873E0E271982DA5991DE71F /* Pods_App.framework */,
 				2F87F9E06C28D2EEDAD83CED /* Pods_AppTests.framework */,
 				A34D9D9690A05E0315600A7B /* Pods_AppUITests.framework */,
@@ -188,6 +203,7 @@
 				0B5050881D6FF5070053C8D0 /* Resources */,
 				54E2CD76CE5F4F42DDD6F969 /* [CP] Embed Pods Frameworks */,
 				92B73520630CD86AC5F2E46A /* [CP] Copy Pods Resources */,
+				0B5050CC1D70EC1F0053C8D0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +268,7 @@
 				TargetAttributes = {
 					0B5050891D6FF5070053C8D0 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7X4YPY434G;
 					};
 					0B50509D1D6FF5070053C8D0 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -599,10 +616,13 @@
 			baseConfigurationReference = 66D62778959599CFFB3AAE20 /* Pods-App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nickdsnyder.App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -611,10 +631,13 @@
 			baseConfigurationReference = B06973CA0D9DC42B24948DF0 /* Pods-App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nickdsnyder.App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

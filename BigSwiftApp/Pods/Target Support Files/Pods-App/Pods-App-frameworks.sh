@@ -87,11 +87,9 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alpha/Alpha.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Bravo/Bravo.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Charlie/Charlie.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Delta/Delta.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alpha/Alpha.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Bravo/Bravo.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Charlie/Charlie.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Delta/Delta.framework"
 fi
